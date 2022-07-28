@@ -1,0 +1,9 @@
+Feature : Striked Through Price
+  Scenario : Striked Through price displayed in the checkout page matches as in the table initial page
+  Given The user enter the mobile web page Bolttech
+  When the page is loaded correctly
+  Then choose a device purchase price from the drop-dow
+  And click button Select
+  And the striked through price shows the  dynamic price that would be displayed in the previous page
+  Then the value of the table price per month matches with the last page displayed
+

@@ -1,0 +1,8 @@
+Feature : Striked Through Price
+  Scenario : Striked Through price displayed in the chekout pages matches in the text under the card
+  Given The user enter the mobile web page Bolttech
+  When the page is loaded correctly
+  Then choose a device purchase price from the drop-dow
+  And click button Select
+  And the striked through price shows the  dynamic price that would be displayed in the previous page
+  Then the value in the text under the card must to match with the last page displayed

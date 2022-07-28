@@ -1,0 +1,11 @@
+Feature : Billing Start Date
+  Scenario : Billing Start Date should be [Contract Start Date + 2 Months - 10 days]
+  Given The user enter the mobile web page Bolttech
+  When the page is loaded correctly
+  Then choose a device purchase price from the drop-dow
+  And in the table click on More details
+  Then check the guaranteed service delivery time in Thailand TimeZone is 1 day
+  And Close the previous screen
+  And click button Select
+  And appears Screen Breakage
+  Then  is checked the Billing Start Date must be [Contract Start Date + 2 Months - 10 days]
